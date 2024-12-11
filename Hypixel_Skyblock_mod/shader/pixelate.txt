@@ -1,0 +1,10 @@
+uniform shader iChunk;
+
+float p = 0.05;
+
+vec4 main(vec2 xy)
+{
+    xy.x = ceil(xy.x* p)/p;
+    xy.y = ceil(xy.y * p)/p;
+    return iChunk.eval(xy);
+}
