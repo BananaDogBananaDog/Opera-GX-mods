@@ -1,0 +1,43 @@
+{
+    "name": "Kitty's hollow abyss",
+    "description": "This is a mod i made for u/AdLast329, enjoy",
+    "developer":
+    {
+        "name": "Banana Dog"
+    },
+    "icons":
+    {
+        "512": "icon_512.jpg"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "payload":
+        {
+            "background_music":
+            [
+                "music/audio.mp3"
+            ],
+
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/ilvideo.mp4",
+                    "first_frame": "wallpaper/first_frame.jpeg",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/ilvideo.mp4",
+                    "first_frame": "wallpaper/first_frame.jpeg",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
