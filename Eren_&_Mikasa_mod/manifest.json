@@ -1,0 +1,38 @@
+{
+    "name": "Eren & Mikasa",
+    "description": "This is a mod i made for u/SaudiKingdom, enjoy",
+    "developer":
+    {
+        "name": "BananaDogBananaDog"
+    },
+    "icons":
+    {
+        "512": "icon.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "payload":
+        {
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/wallpaper.gif",
+
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/wallpaper.gif",
+
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
